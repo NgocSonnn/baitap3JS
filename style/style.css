@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 16px;
+    margin-top: 40px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.id,
+.name,
+.birthday,
+.phonenumber,
+.submit-btn {
+    padding: 8px 0;
+}
+
+.submit-btn {
+    background: #009900;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 18px;
+}
+
+table,
+td,
+tr,
+th {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 4px;
+}
+
+.content {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.del-btn {
+    border: none;
+    background: red;
+    color: #fff;
+    border-radius: 4px;
+    padding: 4px 18px;
+}
+
+
+.task--done {
+    display: none;
+}
